@@ -297,7 +297,6 @@ services:
   meta:
     container_name: supabase-meta
     image: supabase/postgres-meta:v0.86.0
-    networks: ['supabaseagents-supa-idxh6c_supabase_network']
     restart: unless-stopped
     depends_on:
       db:
