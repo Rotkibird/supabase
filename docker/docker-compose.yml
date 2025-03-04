@@ -6,6 +6,7 @@
 #   Reset everything:  ./reset.sh
 
 name: supabase
+version: "3.8"
 
 services:
 
@@ -524,3 +525,7 @@ services:
 
 volumes:
   db-config:
+
+networks:
+  dokploy-network2:
+    external: true  
