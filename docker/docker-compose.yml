@@ -9,7 +9,6 @@ name: supabase
 
 networks:
   supabase_network:
-    external: true
 
 services:
 
