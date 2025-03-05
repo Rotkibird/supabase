@@ -553,5 +553,5 @@ volumes:
   db-config:
 
 networks:
-  my-shared-network:
+  my_shared_network:
     external: true  
